@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: go-todo
-    env: go
-    plan: free
-    buildCommand: go build -o app .
-    startCommand: ./app
-    goVersion: 1.25
